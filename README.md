@@ -3,6 +3,8 @@ This notebook explores different Topic Modelling techniques to create a song rec
 
 The recommender app can be seen [here](https://song-recommendation-by-lyrics.herokuapp.com/). The final model used an LDA topic modelling system.
 
+The presentation is [here](Music_Recommender.pdf).
+
 ## Data
 I grabbed the artists from scraping pages at [ranker.com](https://www.ranker.com/), a crowd-sourced rankings site.
 
