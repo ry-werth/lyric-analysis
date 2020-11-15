@@ -5,8 +5,12 @@ The recommender app can be seen [here](https://song-recommendation-by-lyrics.her
 
 ## Data
 I grabbed the artists from scraping pages at [ranker.com](https://www.ranker.com/), a crowd-sourced rankings site.
+
 I used selenium and beutiful soup to scrape the web pages.
+
 I then used [this python library](https://github.com/johnwmillr/LyricsGenius), to help grab the songs and lyrics from [Genius.com](https://genius.com/), a website with lyrics for practically every song. 
+
+I stored all of my data in a postgres database. I hooked that database up to my heroku app to use for the recommender.
 
 ## Project Goal
 The ultimate goal is to create a recommendation system based purely on song lyrics. For this project I only used classic rock songs because of time and storage restraints, but ultimately the goal would be to create a tool that helped people explore new genres.
